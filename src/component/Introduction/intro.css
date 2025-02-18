@@ -1,0 +1,57 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    padding-top: 1rem;
+    
+}
+.bg{
+
+    object-fit: cover;
+    height: 100vh;
+    padding-left: 1rem;
+    width: 100%;
+    
+}
+.introcontent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.hello{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.iname{
+    color: yellow;
+}
+.intropara{
+    font-size: medium;
+    font-weight: 100;
+}
+.btn{
+    background: white;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+
+}
+@media screen and (max-width:840px){
+#intro{
+    display: block;
+    height: auto; 
+    overflow: visible;
+}
+.bg {
+    height: auto; /* Make background responsive */
+    width: 100%; 
+    margin-top: 2rem; /* Make sure the background stretches full width */
+}
+}
