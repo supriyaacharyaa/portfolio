@@ -9,7 +9,7 @@ const NavBar =() =>{
         <div className="menu">
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="menuitem">Home</Link>
             <Link activeClass='active' to='skill' spy={true} smooth={true} offset={-50} duration={500} className="menuitem">About</Link>
-            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-100} duration={500} className="menuitem">Portfolio</Link>
+            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-80} duration={500} className="menuitem">Portfolio</Link>
             <Link activeClass='active' to='client' spy={true} smooth={true} offset={-100} duration={500} className="menuitem">Clients</Link>
         </div>
         <button className="contact" onClick={()=>{
